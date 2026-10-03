@@ -49,6 +49,12 @@ The script:
 
 It uses the Python standard library only (3.8 or later). `--local <folder>` verifies a record that is already downloaded.
 
+Other scripts (standard library, MIT):
+- `scripts/zip_rebuild_check.py` rebuilds each archive from its members with the writer parameters in `records/README.md`
+  and compares SHA-256.
+- `scripts/manifest_diff.py` compares two versions of a MANIFEST.tsv cell by cell.
+- `scripts/manifest_stats.py` prints a record's composition statistics.
+
 ## Credits
 
 The files of the attribution set are CC BY 4.0: re-use must give the credit in

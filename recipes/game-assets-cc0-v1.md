@@ -45,7 +45,22 @@ glTF-Draco, glTF-Quantized as published; separate image files not included). Ken
 RPG Audio: five Ogg files per pack as published, and one ustar tar per pack of all its Ogg files (no compression,
 mtime 0, members sorted).
 
-## 6. Verification
+## 6. Archives
+
+The record's zip files are written with Python's `zipfile` with these parameters:
+- members in name order (byte-wise sort of the member paths), one entry per file, no directory entries;
+- method STORED (no compression);
+- date and time 1980-01-01 00:00:00 on every member;
+- external attributes `0644 << 16` (Unix permission bits rw-r--r--);
+- the Zip64 extra field forced on every member (version needed to extract 4.5);
+- host-system field 0 (MS-DOS / FAT, the value `zipfile` writes on Windows);
+- no data descriptors, no comment.
+
+`scripts/zip_rebuild_check.py` rebuilds every published archive from its own members with these parameters and
+compares SHA-256. It does so for all seven archives of records 23112969 and 23112972. With the Zip64 extra not forced,
+or with host-system field 3 (Linux / macOS), the rebuilt archives differ.
+
+## 7. Verification
 
 Every file was verified against its source before publication.
 
