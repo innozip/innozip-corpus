@@ -1,0 +1,12 @@
+source licence page	licence	quoted sentence (checked 2026-10-02)	files
+https://kenney.nl/support	CC0-1.0	"Yes, all game assets on the asset pages are public domain licensed (CC0)." (asset page: "License Creative Commons CC0")	40
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/Avocado/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	7
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/BarramundiFish/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	5
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/BoomBox/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	5
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/Lantern/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	7
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/SheenCloth/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	2
+https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/ToyCar/README.md	CC0-1.0	README Legal: "Creative Commons Zero v1.0 Universal" (link to the CC0 legal code)	3
+https://docs.ambientcg.com/license/	CC0-1.0	"You can copy, modify, distribute and perform the assets, even for commercial purposes, all without asking permission."	218
+https://polyhaven.com/license	CC0-1.0	"You can redistribute them, share them around, include them when sharing your own work, or even in a product you sell."	415
+own generation	CC0-1.0	numpy fBm value noise, 1024 x 1024 RGB, seed 20261001; no third-party input; released under CC0 1.0 with the record	36
+https://polyhaven.com/license ; https://docs.ambientcg.com/license/	CC0-1.0	"You can redistribute them, share them around, include them when sharing your own work, or even in a product you sell." / "You can copy, modify, distribute and perform the assets, even for commercial purposes, all without asking permission."	6
